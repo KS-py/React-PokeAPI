@@ -1,0 +1,27 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: left;
+    color: #ffccee;
+    margin-left: 50px;
+}
+
+.main-div{
+    display: grid;
+    grid-template-columns:70px 250px;
+    width: 50%;
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+    margin: 50px 50px;
+    padding: 0 10px;
+    /* background-color: white; */
+    background: linear-gradient(to bottom, #ff11ff, #ffccff);
+    font-family: verdana;
+    font-size: 1.2em;
+    line-height: 1.6rem;
+    box-shadow: 0 0 4px 4px gray;
+}

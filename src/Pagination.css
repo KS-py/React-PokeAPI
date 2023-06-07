@@ -1,0 +1,35 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight:100;
+    font-size: 1.2em;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.next{
+    background-color: green;
+}
+
+.next:hover{
+    cursor: pointer;
+    background-color: lime;
+    transition: 1.3s;
+}
+
+.prev{
+    background-color: #ff2200;
+}
+
+.prev:hover{
+    cursor: pointer;
+    background-color: #ff0000;
+    transition: 1.3s;
+}
