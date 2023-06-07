@@ -1,6 +1,6 @@
 # React-PokeAPI
 
-A React app created using the Vite tool
+A React app created using the Vite tool.
 The app fetches the Pokemon index from the PokeAPI website, and presents it in an enumerated format with pagination.
 
 To run the app: 
@@ -11,7 +11,8 @@ To start the Vite React server and view the app on the port specified in your br
 
 Prerequisites
 --------------
-NodeJS 
-React
-Basic Vite project setup
+NodeJS, 
+Axios (npm package),
+React,
+basic Vite project setup.
 
